@@ -1,0 +1,180 @@
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Facebook - выполните вход или зарегистрируйтейсь</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Gugi&family=Poppins:wght@300;700&display=swap" rel="stylesheet">
+    <style>
+        body{
+            background-color: #f3f4f5;
+        }
+
+        /*.main{
+
+            display: flex;
+            justify-content: space-between;
+            padding: 200px;
+            padding-top: 180px;
+        }*/
+        .left-text{
+            
+            position: absolute;
+            top: 200px;
+            left: 200px;
+        }
+        .reg-form{
+        position: fixed;
+        top: 140px;
+        left: 750px;
+        background-color: #fff;
+        box-shadow: 0 5px 10px #ccc;
+        padding: 10px;
+        border-radius: 10px;
+        width: 396px;
+        text-align: center;
+        }
+        #Face{
+            font-size: 55px;
+             margin: 0;
+            font-family: 'Poppins', sans-serif;
+            color: #008ad3;
+        }
+        #Text{
+            margin: 0;
+            font-size: 28px;
+        }
+        .input{
+            padding-left: 15px;
+            font-size: 17px;
+            width: 370px;
+            height: 50px;
+            border-radius: 6px;
+            border-width: 0.5px;
+            color:#dfe1ee;
+            margin-bottom: 12px;
+        }
+        .button1{
+            width: 370px;
+            height: 50px;
+            border-radius: 6px;
+            border-width: 0.5px;
+            background-color: #1877f2;
+            margin-bottom: 12px;
+            font-size: 20px;
+            color: aliceblue;
+            font-weight: bold;
+        }
+        .button2{
+            width: 230px;
+            height: 50px;
+            border-radius: 6px;
+            border-width: 0.5px;
+            background-color: #42b72a;
+            margin-bottom: 12px;
+            font-size: 18px;
+            color: aliceblue;
+            font-weight: bold;
+        }
+        a{
+            margin: 6px;
+        }
+        hr{
+        border-bottom: 1px solid #f3f4f5;
+            margin: 20px 16px;
+        }
+        .footer{
+            font-size: 12px;
+            color: #8a8d91;
+            font-family: sans-serif;
+            display: flex;
+            flex-direction: column;
+            background: white;
+            position: fixed;
+            top: 610px;
+            width: 100%;
+            padding: 20px;
+            padding-left: 160px;
+            align-content: center;
+        }
+        .foot-hr{
+            margin: 0;
+            width: 70%;
+        }
+        .pre-last{
+            width: 50%;
+        }
+        .last{
+            padding: 2px;
+            width: 90%;
+        }
+                @media only screen and (max-width: 1200px) {
+            .main {
+                flex-direction: column;
+                padding: 50px;
+                align-items: center;
+                width: auto;
+            }
+            .reg-form {
+                margin-top: 30px;
+            }
+            .footer{
+            bottom: 0px;
+            left: 0px;
+            width: auto;
+            display: flex;
+            flex-direction: column;
+            position: absolute;
+            }
+        }
+                        @media only screen and (max-width: 600px) {
+            .main {
+                flex-direction: column;
+                padding: 50px;
+                align-items: center;
+                width: auto;
+            }
+            .reg-form {
+                margin-top: 30px;
+            }
+            .footer{
+            bottom: 0px;
+            left: 0px;
+            width: auto;
+            display: flex;
+            flex-direction: column;
+            position: absolute;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="main">
+        <div class="left-text">
+            <p id="Face"><b>facebook</b></p>
+            <p id="Text">Facebook помогает вам всегда<br/> оставаться на связи и общаться со<br/> своими знакомыми.</p>
+        </div>
+        <div class="reg-form">
+        <form>
+        <input class="input" type="text" name="email" placeholder="Электронный адрес или номер телефона"><br/>
+        <input class="input" type="password" name="password" placeholder="Пароль"><br/>
+            <input class="button1" type="button" value="Вход"><br/>
+            <a href="Index.html" >Забыли пароль?</a>
+            <hr>
+            <input class="button2" type="button" value="Создать новый аккаунт">
+        </form>
+
+        </div>
+    </div>
+    
+ <footer>
+    <div class="footer">
+        <p class="pre-last">Русский  Українська  English (US)  Magyar  اعربية  Français (France)  Türkçe  Tiếng Việt  Polski  Español  Português (Brasil)</p>
+     <hr class="foot-hr">
+        <p class="last">Регистрация  Вход  Messenger  Facebook Lite  Watch  Места  Игры  Marketplace  Facebook  Pay  Вакансии  Oculus  Portal  Instagram  Bulletin<br/>  Местные  Благотворительные  акции  Услуги  Центр информации о голосовании Группы Информация Создать рекламу Создать Страницу<br/> Разработчикам Вакансии Конфиденциальность Файлы cookie Рекламные предпочтения Условия использования Справка Настройки</p>
+     </div>
+     </footer>
+</body> 
+</html>
+
+    
